@@ -1,19 +1,10 @@
-# Addy's dotfiles.
+# Patricks's dotfiles.
 
-This repo contains my personal dotfiles and are heavily based on [paul](https://github.com/paulirish/dotfiles/) and [mathias](https://github.com/mathiasbynens/dotfiles/)'s.
-
-## Some differences
-
-* Browserstack shortcuts which will launch the service and automatically load up a specific OS/Browser pair with your URL. e.g `win7ie8 "http://google.com"`, `ipad3 "http://google.com"`, `ipad3ios6 "http://google.com"`,`androidnexus "http://google.com"` etc. If you would prefer to work locally similarly use `ipad3 "http://localhost:3000"`
-* Dropbox via the command-line support `dropbox upload {localFile} {remoteFile}`, `dropbox download {remoteFile} {localFile}`, `dropbox list` etc.
-* Browser and npm aliases e.g `chrome`, `safari`, `opera`, `firefox`, `chromium` and others.
-* Launch all browsers with a specific URL `browsers "http://google.com"`
-* My Sublime Text build files (Grunt, Yeoman, r.js, SASS, Less and a few others included)
-* [@cowboy](http://github.com/cowboy)'s GitHub Pull Request Helper
+This repo contains my personal dotfiles and are heavily based on [Addy Osmani] [Paul Irish](https://github.com/paulirish/dotfiles/) and [Mathias Bynens](https://github.com/mathiasbynens/dotfiles/)'s.
 
 ## install the neccessary apps
 
-My basic setup is captured in `install-deps.sh` which adds homebrew, z, nave, etc.
+My basic setup is captured in `install-deps.sh` which adds homebrew, z, nvm, etc.
 
 ## private config
 
@@ -72,14 +63,10 @@ When setting up a new Mac, you may want to set some sensible OS X defaults:
 I recommend getting a [`.jshintrc`](https://github.com/jshint/node-jshint/blob/master/.jshintrc) and [`.editorconfig`](http://editorconfig.org/) defined for all your projects.
 
 
-
-
-
 ## overview of files
 
 ####  Automatic config
 * `.ackrc` - for ack (better than grep)
-* `.vimrc`, `.vim` - vim config, obv.
 
 #### shell environement
 * `.aliases`
@@ -107,7 +94,7 @@ I recommend getting a [`.jshintrc`](https://github.com/jshint/node-jshint/blob/m
 ## Installation
 
 ```bash
-git clone https://github.com/addyosmani/dotfiles.git && cd dotfiles && ./sync.sh
+git clone https://github.com/phamann/dotfiles.git && cd dotfiles && ./sync.sh
 ```
 
 To update later on, just run the sync again.
