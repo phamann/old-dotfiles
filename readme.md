@@ -1,4 +1,4 @@
-# Patricks's dotfiles.
+# Patrick's dotfiles.
 
 This repo contains my personal dotfiles and are heavily based on [Addy Osmani] [Paul Irish](https://github.com/paulirish/dotfiles/) and [Mathias Bynens](https://github.com/mathiasbynens/dotfiles/)'s.
 
