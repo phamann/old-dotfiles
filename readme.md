@@ -1,6 +1,6 @@
 # Patrick's dotfiles.
 
-This repo contains my personal dotfiles and are heavily based on [Addy Osmani] [Paul Irish](https://github.com/paulirish/dotfiles/) and [Mathias Bynens](https://github.com/mathiasbynens/dotfiles/)'s.
+This repo contains my personal dotfiles and are heavily based on [Addy Osmani](https://github.com/addyosmani/dotfiles) [Paul Irish](https://github.com/paulirish/dotfiles/) and [Mathias Bynens](https://github.com/mathiasbynens/dotfiles/)'s.
 
 ## install the neccessary apps
 
