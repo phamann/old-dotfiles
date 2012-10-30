@@ -17,7 +17,7 @@ shopt -s nocaseglob
 
 # Prefer UK English and use UTF-8
 #export LC_ALL="en_UK.UTF-8"
-export LANG="en_UK"
+#export LANG="en_UK"
 
 # Add tab completion for SSH hostnames based on ~/.ssh/config, ignoring wildcards
 [ -e "$HOME/.ssh/config" ] && complete -o "default" -o "nospace" -W "$(grep "^Host" ~/.ssh/config | grep -v "[?*]" | cut -d " " -f2)" scp sftp ssh
