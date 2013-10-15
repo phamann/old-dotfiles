@@ -16,8 +16,7 @@ source  ~/nvm/nvm.sh
 shopt -s nocaseglob
 
 # Prefer UK English and use UTF-8
-#export LC_ALL="en_UK.UTF-8"
-export LANG="en_UK"
+export LC_ALL= LANG=en_US.UTF-8
 
 # Add tab completion for SSH hostnames based on ~/.ssh/config, ignoring wildcards
 [ -e "$HOME/.ssh/config" ] && complete -o "default" -o "nospace" -W "$(grep "^Host" ~/.ssh/config | grep -v "[?*]" | cut -d " " -f2)" scp sftp ssh
@@ -27,3 +26,12 @@ export LANG="en_UK"
 complete -W "NSGlobalDomain" defaults
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+##
+# Your previous /Users/phamann/.bash_profile file was backed up as /Users/phamann/.bash_profile.macports-saved_2013-01-03_at_15:13:23
+##
+
+# MacPorts Installer addition on 2013-01-03_at_15:13:23: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+
