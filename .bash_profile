@@ -8,6 +8,13 @@ unset file
 # init z   https://github.com/rupa/z
 . ~/code/z/z.sh
 
+# Set up nodenv and defaults
+export PATH="$HOME/.nodenv/bin:$PATH"
+export NODENV_VERSION="v0.10"
+
+#Set up rbenv and defaults
+export RBENV_VERSION="2.1.1"
+
 # Case-insensitive globbing (used in pathname expansion)
 shopt -s nocaseglob
 
@@ -24,3 +31,4 @@ complete -W "NSGlobalDomain" defaults
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
 source /opt/boxen/env.sh
+
