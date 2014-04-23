@@ -8,10 +8,6 @@ unset file
 # init z   https://github.com/rupa/z
 . ~/code/z/z.sh
 
-# init rvm & nvm
-source ~/.rvm/scripts/rvm
-source  ~/nvm/nvm.sh
-
 # Case-insensitive globbing (used in pathname expansion)
 shopt -s nocaseglob
 
@@ -25,13 +21,6 @@ export LC_ALL= LANG=en_US.UTF-8
 # You could just use `-g` instead, but I like being explicit
 complete -W "NSGlobalDomain" defaults
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-
-##
-# Your previous /Users/phamann/.bash_profile file was backed up as /Users/phamann/.bash_profile.macports-saved_2013-01-03_at_15:13:23
-##
-
-# MacPorts Installer addition on 2013-01-03_at_15:13:23: adding an appropriate PATH variable for use with MacPorts.
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-# Finished adapting your PATH environment variable for use with MacPorts.
 
+source /opt/boxen/env.sh
